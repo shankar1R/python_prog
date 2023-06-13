@@ -11,10 +11,10 @@ def submit():
     productamount=txt5.get()
     
 
-    with open("exel files/tk.csv","w") as file:
-        data=csv.writer(file)
+    # with open("exel files/tk.csv","w") as file:
+    #     data=csv.writer(file)
         
-        data.writerow([customer,phonenumber,Email,productname,productamount])
+    #     data.writerow([customer,phonenumber,Email,productname,productamount])
 
 main = tk.Tk(className="  CUSTOMER DETAILES")
 main.geometry("600x600")
